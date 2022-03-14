@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ font-family: "Bebas Neue", sans-serif;
+ box-sizing: border-box;
+}
+ 
+ header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0 10px;
+    color:dimgray;
+    float: right;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color:dimgray;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(hand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+}
+
+.hero-h2:before{
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color:dimgray;
+    text-decoration: none;
+    opacity: 0;
+}
+
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgray;
+    text-decoration: none;
+    display: flex;
+    letter-spacing: 4px;
+    text-align: right;
+    margin-top: 665px;
+    z-index: 12px;
+    position: relative;
+    bottom: 200px;
+}
+
+.hero-h2 > p {
+    margin: 6px auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 375px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgray;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 60px;
+    opacity: 1;
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+    bottom: 200px;
+}
+
+.nav__links{
+    list-style: none;
+
+}
+
+.nav__links li{
+    display:inline;
+    padding: 0px 20px;
+    background-color: black;
+    margin-left: 10px;
+
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.nav__links li a:hover {
+    color:blue;
+}
+
+.container{
+    width: 2000px;
+    margin: auto;
+    overflow:hidden;
+    background-color: black;
+    position: relative;
+    bottom: 2000px;
+    top: 100px;
+}
+
+.main-card{
+    margin: 5px;
+    border: 10px white; 
+    width: 400px;
+    background-color: black;
+    margin: 250px auto;
+    left: 0;
+    border: 100px whitesmoke;
+    right: 0;
+    top: 0%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgray;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 100px;
+    opacity: 1;
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    width: fit-content;
+}
+
+.main-card img{
+    width: 1000px;
+    height: auto;
+    left: auto;
+    right: 5;
+    margin: 5px;
+    float: inherit;
+    position: relative;
+    bottom: 200px;
+}
+
+.div{
+    position: relative;
+    bottom: 0px;
+}
+
+.small-container img{
+    width: 500px;
+    position: relative;
+    height: auto;
+    left: 100px;
+    bottom: 615px;
+    right: 5;
+    margin: 5px;
+    float: inherit;
+    opacity: 5;
+}
+
+.container-2 img{
+     width: 500px;
+     position: relative;
+      height: auto;
+      left: 600px;
+      bottom: 900px;
+      right: 5;
+      margin: 5px;
+      float: inherit;
+      filter: grayscale(20);
+  }
+
+  .container-3 img{
+     width: 500px;
+     position: relative;
+      height: auto;
+      bottom: 920px;
+      left: 100px;
+      right: 5;
+      margin: 5px;
+      float: inherit;
+      filter: invert(20);
+  }
+
+  .container-4 img{
+     width: 500px;
+     position: relative;
+      height: auto;
+      left: 600px;
+      bottom: 1207px;
+      right: 5;
+      margin: 5px;
+      float: inherit;
+        filter: contrast(30);
+  }
+
+  .contact-info > h2{
+      position: relative;
+      bottom: 1500px;
+  }
+
+  .contact-info > p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0 10px;
+    color:dimgray;
+    text-decoration: none;
+    z-index: 12;
+  }
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+section{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:dimgray;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+
